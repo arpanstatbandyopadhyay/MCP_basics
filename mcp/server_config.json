@@ -1,0 +1,26 @@
+{
+    "mcpServers": {
+      "calculator_server": {
+        "command": "C:\\Users\\DELL\\.local\\bin\\uv.EXE",
+        "args": [
+          "run",
+          "--with",
+          "mcp[cli]",
+          "mcp",
+          "run",
+          "F:\\modelcontextprotocol\\mcp\\calculator_server.py"
+        ]
+      },
+      "EmployeeServer": {
+        "command": "C:\\Users\\DELL\\.local\\bin\\uv.EXE",
+        "args": [
+          "run",
+          "--with",
+          "mcp[cli]",
+          "mcp",
+          "run",
+          "F:\\mcp_calculator\\MCP_basics\\mcp\\employee_server.py"
+        ]
+      }
+    }
+  }
